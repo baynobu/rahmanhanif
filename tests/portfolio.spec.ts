@@ -1,5 +1,5 @@
-import { test, expect } from '@playwright/test';
-import { PortfolioPage } from '../pages/PortfolioPage';
+import { test } from '@playwright/test';
+import { PortfolioPage } from './pages/PortfolioPage';
 
 test.describe('Pengujian E2E Website Portofolio Pribadi Rahman Hanif', () => {
 

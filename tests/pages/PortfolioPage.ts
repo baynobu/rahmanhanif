@@ -78,3 +78,4 @@ export class PortfolioPage {
     await expect(this.stackSection.getByRole('heading', { level: 2, name: /Tech stack/i })).toBeVisible();
   }
 }
+

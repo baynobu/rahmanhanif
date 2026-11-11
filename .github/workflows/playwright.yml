@@ -2,9 +2,9 @@ name: Playwright Tests for Portfolio
 
 on:
   push:
-    branches: [ main, master, develop ]
+    branches: [ main, master, develop, test-playwright ]
   pull_request:
-    branches: [ main, master, develop ]
+    branches: [ main, master, develop, test-playwright ]
 
 jobs:
   test:
@@ -39,3 +39,4 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 14
+
